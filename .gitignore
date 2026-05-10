@@ -1,0 +1,34 @@
+# Build output
+build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Compiled binaries
+*.exe
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+
+# Backup files created by the patcher itself
+*.bak
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Clang
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
