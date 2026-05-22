@@ -12,24 +12,22 @@ Built as a replacement for the original Large Address Aware tool, which may not 
 
 ```powershell
 # Set the LAA flag (creates a .bak backup automatically)
-& ".\Large Address Aware.exe" <path-to-exe>
+& ".\Large-Address-Aware.exe" <path-to-exe>
 
 # Check the current flag status without modifying
-& ".\Large Address Aware.exe" <path-to-exe> --check
+& ".\Large-Address-Aware.exe" <path-to-exe> --check
 
 # Clear the LAA flag
-& ".\Large Address Aware.exe" <path-to-exe> --clear
+& ".\Large-Address-Aware.exe" <path-to-exe> --clear
 
 # Set the LAA flag without creating a backup
-& ".\Large Address Aware.exe" <path-to-exe> --no-backup
+& ".\Large-Address-Aware.exe" <path-to-exe> --no-backup
 ```
 
 ### Example with Dungeon Siege (32-bit Game)
 
-You will need to rename the Large.Address.Aware.exe to Large Address Aware.exe in order for the below command to run properly.
-
 ```powershell
-& ".\Large Address Aware.exe" "C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1\DungeonSiege.exe"
+& ".\Large-Address-Aware.exe" "C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1\DungeonSiege.exe"
 ```
 
 ```

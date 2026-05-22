@@ -8,3 +8,6 @@ Checks: >
   readability-*
 
 WarningsAsErrors: false
+
+ExtraArgs:
+  - -std=c++23

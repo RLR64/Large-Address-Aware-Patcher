@@ -31,7 +31,7 @@ add_executable(large_address_aware
 )
 
 set_target_properties(large_address_aware PROPERTIES
-    OUTPUT_NAME "Large Address Aware"
+    OUTPUT_NAME "Large-Address-Aware"
 )
 
 target_compile_definitions(large_address_aware PRIVATE

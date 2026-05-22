@@ -6,6 +6,3 @@ BasedOnStyle: LLVM
 IndentWidth: 4
 TabWidth: 4
 UseTab: ForIndentation
-
-# Line length
-ColumnLimit: 120
