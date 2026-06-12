@@ -1,8 +1,50 @@
 # .clang-format
-
 BasedOnStyle: LLVM
+
+# Alignment                       
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AlwaysBreakTemplateDeclarations: Yes
 
 # Indentation - use tabs
 IndentWidth: 4
 TabWidth: 4
 UseTab: ForIndentation
+
+# Line length
+ColumnLimit: 120
+
+# Braces - Attach style keeps { on same line as class/function
+BreakBeforeBraces: Attach
+
+# Pointers and references
+PointerAlignment: Left
+
+# Spaces                            
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInAngles: false    
+SpacesInContainerLiterals: false
+SpaceAfterCStyleCast: false
+
+# Include sorting     
+SortIncludes: true    
+IncludeBlocks: Regroup
+
+# Short constructs - keep them expanded for readability
+AllowShortFunctionsOnASingleLine: None                 
+AllowShortIfStatementsOnASingleLine: Never             
+AllowShortLoopsOnASingleLine: false                    
+AllowShortCaseLabelsOnASingleLine: false               
+
+# Empty line between functions/methods
+SeparateDefinitionBlocks: Always      
+
+# Constructor initializer lists          
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerIndentWidth: 4     
+
+# Penalties (controls where clang-format prefers to break lines)
+PenaltyBreakBeforeFirstCallParameter: 100                       
+PenaltyReturnTypeOnItsOwnLine: 200                              
