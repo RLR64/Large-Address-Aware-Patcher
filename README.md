@@ -5,7 +5,7 @@ A C++23 GUI tool for toggling the `IMAGE_FILE_LARGE_ADDRESS_AWARE` flag on 32-bi
 This allows a 32-bit process to access up to **4GB of virtual address space** on 64-bit Windows, instead of the default 2GB limit.
 This is great for older games or any 32-bit applications that hit memory limits.
 
-![Large Address Aware Patcher](assets/flowplusplus.jpg)
+![Large Address Aware Patcher](assets/large_address_aware.jpg)
 
 ## Usage
 
