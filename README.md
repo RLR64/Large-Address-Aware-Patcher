@@ -1,4 +1,4 @@
-# Large Address Aware Redux
+# Large Address Aware Patcher
 
 A C++23 GUI tool for toggling the `IMAGE_FILE_LARGE_ADDRESS_AWARE` flag on 32-bit Windows PE executables.
 
